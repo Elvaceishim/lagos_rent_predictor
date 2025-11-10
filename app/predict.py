@@ -13,7 +13,23 @@ ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "trained_model_pipeline.joblib"
 
 # These are the raw feature columns the training pipeline expected.
-FEATURE_COLUMNS = ["location", "bedrooms", "bathrooms", "toilets", "area_sqm", "type"]
+FEATURE_COLUMNS = [
+    "location",
+    "type",
+    "bedrooms",
+    "bathrooms",
+    "toilets",
+    "area_sqm",
+    "Lagos_Area",
+    "month",
+    "year",
+    "inflation",
+    "exchange_rate",
+    "gdp_growth",
+    "inflation_lag1Q",
+    "exchange_rate_lag1Q",
+    "gdp_growth_lag1Q",
+]
 
 
 @lru_cache(maxsize=1)
@@ -47,4 +63,3 @@ def predict_rent(features: Dict[str, Any]) -> float:
     frame = pd.DataFrame([payload])
     prediction = model.predict(frame)[0]
     return float(prediction)
-
