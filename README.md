@@ -9,7 +9,7 @@ app_file: app/ui.py
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-referenc
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 ## Lagos Rent Predictor
 
