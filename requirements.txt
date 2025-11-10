@@ -1,4 +1,5 @@
-gradio
-pandas
-scikit-learn
-joblib
+gradio==4.44.0
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.4.2
+huggingface_hub==0.23.0
