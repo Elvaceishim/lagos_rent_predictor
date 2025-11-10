@@ -1,15 +1,11 @@
 location,bedrooms,bathrooms,toilets,area_sqm,type,price_naira,source
-"Maje,new Felele, Soka Ibadan Oyo",2.0,2.0,,,House FOR RENT,1500000/year,propertypro
 Ikate Lekki Lagos,3.0,3.0,,,House FOR Rent,10000000/year,propertypro
-Canaan Land Estate Life Camp Abuja,3.0,3.0,,,House FOR Rent,8000000/year,propertypro
-Close To Sunnyvale Estate Lokogoma Abuja,3.0,3.0,,,House FOR Rent,6000000/year,propertypro
 Oral Extension Estate Oral Estate Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,3500000/year,propertypro
 Royal Pine Estate Orchid Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,4000000/year,propertypro
 Ikate Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,3500000/year,propertypro
 Emcel Garden Orchid Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,1300000/year,propertypro
 Lekki Phase 1 Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,5000000/year,propertypro
 Maple Estate Orchid Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,700000/year,propertypro
-"An Estate Opposite Sunnyvale Estate, Lokogoma Abuja",3.0,3.0,,,House FOR SALE,180000000,propertypro
 Victoria Bay Estate Orchid Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,1500000/year,propertypro
 Ikate Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,3000000/year,propertypro
 Emcel Garden Orchid Lekki Lagos,1.0,1.0,,,Flat Apartment FOR Rent,1800000/year,propertypro
@@ -22,16 +18,13 @@ Louis Solomon Close Victoria Island Lagos,,,,,Commercial Property FOR Rent,55000
 Victoria Island Victoria Island Lagos,,,,,Commercial Property FOR Rent,$,propertypro
 Victoria Island Lagos,,,,,Commercial Property FOR Rent,150000000/year,propertypro
 Banana Island Estate Banana Island Ikoyi Lagos,3.0,3.0,,,Flat / Apartment FOR RENT,49900000/year,propertypro
-Wuse 2 Abuja,,,,,Commercial Property FOR Rent,10000000/year,propertypro
 "Alimosho Lga, Egbe Ikotun Igando Lagos",,5.0,,,Commercial Property FOR Rent,30000/sqm,propertypro
 Walter Carrington Crescent Victoria Island Lagos,3.0,3.0,,,Flat Apartment FOR Rent,$,propertypro
 Infinity Estate Ado Ajah Lagos,2.0,3.0,,,Flat Apartment FOR Rent,3000000/year,propertypro
 Royal Palmwill Estate Badore Ajah Lagos,3.0,4.0,,,House FOR Rent,3500000/year,propertypro
-"Life Camp By Stella Maris School, Life Camp Abuja Life Camp Abuja",1.0,1.0,,,Flat Apartment FOR Rent,6500000/year,propertypro
 Victoria Island Lagos,3.0,4.0,,,Flat Apartment FOR Rent,35000000/year,propertypro
 Ikoyi Lagos,1.0,2.0,,,Flat Apartment FOR Rent,15000000/year,propertypro
 Banana Island Ikoyi Lagos,4.0,5.0,,,Flat Apartment FOR Rent,65000000/year,propertypro
-Jericho Estate Ibadan Oyo,4.0,5.0,,,House FOR SALE,250000000,propertypro
 Lekki Phase 1 Lekki Lagos,4.0,5.0,,,Flat Apartment FOR Rent,20000000/year,propertypro
 Victoria Island Lagos,3.0,4.0,,,Flat Apartment FOR Rent,45000000/year,propertypro
 Admiralty Road Lekki Phase 1 Lekki Lagos,,,,,Commercial Property FOR Rent,6000000/year,propertypro
@@ -65,7 +58,6 @@ Facing A Busy Commercial Road @ Lekki Phase 1 Lekki Phase 1 Lekki Lagos,,,,,Comm
 "Directly Facing A Busy Road @ Lekki Phase 1, Lagos Lekki Phase 1 Lekki Lagos",,,,,Commercial Property FOR Rent,7500000/year,propertypro
 Macaulay Igbogbo Ikorodu Lagos,,,,,Flat Apartment FOR Rent,350000/year,propertypro
 "Road 6, Agunfoye Junction Igbogbo Ikorodu Lagos",1.0,1.0,,,Flat Apartment FOR Rent,500000/year,propertypro
-"Maje,new Felele, Soka Ibadan Oyo",2.0,2.0,,,House FOR RENT,1500000/year,propertypro
 Adekunle Fajuyi Ikeja Gra Ikeja Lagos,,,,226.0,Land FOR Rent,1000000000/year,propertypro
 "Olumo,oreyo Igbogbo Ikorodu Lagos",1.0,1.0,,,Flat Apartment FOR Rent,300000/year,propertypro
 Fawole Estate Igbogbo Ikorodu Lagos,1.0,1.0,,,Flat Apartment FOR Rent,700000/year,propertypro
@@ -76,13 +68,6 @@ Alausa Ikeja Lagos,,,,300.0,Land FOR Rent,800000000/year,propertypro
 Wagbare Igbogbo Ikorodu Lagos,3.0,3.0,,,Flat Apartment FOR Rent,1000000/year,propertypro
 Oreyo Igbogbo Ikorodu Lagos,1.0,1.0,,,Flat Apartment FOR Rent,650000/year,propertypro
 Lekki Phase 1 Lekki Lagos,2.0,2.0,,,House FOR SHORTLET,5000000/month,propertypro
-"Odo Ona Elewe, Orita Challenge Ibadan Oyo",,,,,Commercial Property FOR Rent,3000000/year,propertypro
-Apata Ibadan Oyo,,,,500.0,Commercial Property FOR Rent,3000000/year,propertypro
-Fodaic Adeoyo Hospital Road Ibadan Oyo,,,,,Commercial Property FOR Rent,5000000/year,propertypro
-"Akala Express, Ibadan Oyo",,,,,Commercial Property FOR Rent,1200000/year,propertypro
-Bodija Ibadan Oyo,2.0,2.0,,,Flat Apartment FOR Rent,3200000/year,propertypro
-Apata Ibadan Oyo,3.0,,,,Flat Apartment FOR Rent,1200000/year,propertypro
-Apete Ibadan Oyo,,,,,Flat Apartment FOR Rent,300000/year,propertypro
 Agungi Lekki Lagos,4.0,4.0,,,House FOR Rent,12000000/year,propertypro
 Ikate Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,10000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,15000000/year,propertypro
@@ -106,7 +91,6 @@ Oniru Estates Oniru Victoria Island Lagos,4.0,4.0,,,House FOR Rent,20000000/year
 Osapa Osapa London Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,7500000/year,propertypro
 Banana Island Ikoyi Lagos,3.0,2.0,,,Flat Apartment FOR Rent,60000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,4.0,4.0,,,House FOR Rent,50000000/year,propertypro
-Ado Odo Ota Ogun,,,,,Commercial Property FOR Rent,60000000/year,propertypro
 Ikoyi Lagos,4.0,4.0,,,Flat Apartment FOR Rent,40000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,2.0,2.0,,,Flat Apartment FOR Rent,47200000/year,propertypro
 Old Ikoyi Ikoyi Lagos,3.0,3.0,,,Flat / Apartment FOR RENT,50000000/year,propertypro
@@ -131,7 +115,6 @@ Victoria Island Lagos,2.0,2.0,,,Flat Apartment FOR Rent,50000000/year,propertypr
 Idado Estate Lekki Lagos,3.0,4.0,,,Flat Apartment FOR Rent,4000000/year,propertypro
 "Fatai Kudirat Estate, Agungi Lekki Lagos",1.0,2.0,,,Flat Apartment FOR Rent,2300000/year,propertypro
 Royal Palmwill Estate Ajah Lagos,,,,,Commercial Property FOR Rent,500000/year,propertypro
-"Oloronbo, Basorun Ibadan Oyo",1.0,1.0,,,House FOR RENT,1500000/year,propertypro
 Badore Major Road Ajah Lagos,,,,,Commercial Property FOR Rent,4500000/year,propertypro
 Abraham Adesanya Ajah Lagos,1.0,1.0,,,Flat Apartment FOR Rent,650000/year,propertypro
 Abraham Adesanya Ajah Lagos,2.0,3.0,,,Flat Apartment FOR Rent,2500000/year,propertypro
@@ -163,7 +146,6 @@ Ajah Lagos,4.0,4.0,,,House FOR Rent,8000000/year,propertypro
 4 Bedroom Duplex For Rent Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,10000000/year,propertypro
 Chevron Lekki Lagos,4.0,4.0,,,House FOR Rent,15000000,propertypro
 Studio Apartment For Rent Ikate Lekki Lagos,,,,,Flat Apartment FOR Rent,7000000,propertypro
-F01 Kubwa Abuja,4.0,4.0,,,House FOR SALE,165000000/year,propertypro
 4 Bedroom Duplex For Rent (can Be Used For Commercial) Lekki Phase 1 Lekki Lagos,4.0,4.0,,,House FOR Rent,25000000/year,propertypro
 2 Bedroom Apartment For Rent Ikate Lekki Lagos,2.0,2.0,,,House FOR Rent,6500000/year,propertypro
 Orchid Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,7000000/year,propertypro
@@ -175,7 +157,6 @@ Orchid Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,7000000/year,propertypro
 4 Bedroom Terrace Duplex For Rent Ajah Lagos,4.0,4.0,,,House FOR Rent,6500000/year,propertypro
 3 Bedroom Apartment For Rent Victoria Island Lagos,3.0,3.0,,,House FOR Rent,25000000/year,propertypro
 2 Bedroom Apartment For Rent Oniru Victoria Island Lagos,2.0,2.0,,,Flat Apartment FOR Rent,12000000/year,propertypro
-Gwarinpa Abuja,3.0,4.0,,,House FOR RENT,6000000/year,propertypro
 4 Bedroom Duplex For Rent Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,13000000/year,propertypro
 2 Bedroom Apartment For Rent Ikate Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,9000000,propertypro
 5 Bedroom Duplex For Rent In A Secured And Serene Estate Ikoyi Lagos,5.0,5.0,,,House FOR Rent,40000000/year,propertypro
@@ -219,7 +200,6 @@ Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,10000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,3.0,3.0,,,Flat Apartment FOR Rent,25000000/year,propertypro
 Ikate Lekki Lagos,6.0,6.0,,,House FOR Rent,15000000/year,propertypro
 Chevron Lekki Lagos,4.0,4.0,,,House FOR Rent,10000000/year,propertypro
-Wuye Abuja,6.0,6.0,,,House FOR RENT,25000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,4.0,4.0,,,House FOR Rent,$,propertypro
 Ikate Lekki Lagos,4.0,4.0,,,House FOR Rent,15000000/year,propertypro
 Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,8500000/year,propertypro
@@ -236,12 +216,9 @@ Lekki Phase 1 Lekki Lagos,3.0,,,,Flat Apartment FOR Rent,23000000/year,propertyp
 Lekki Phase 1 Lekki Lagos,5.0,,,,Flat Apartment FOR Rent,25000000/year,propertypro
 Vi Victoria Island Lagos,,,,,Land FOR Rent,70000000,propertypro
 Oniru Estate Victoria Island Lagos,3.0,,,,House FOR Rent,25000000/year,propertypro
-Main Mabushi Abuja,4.0,4.0,,,House FOR Rent,15000000/year,propertypro
-Close To Nnpc Guzape Abuja,,,,,Commercial Property FOR Rent,200000000/year,propertypro
 Banana Island Estate Ikoyi Lagos,4.0,3.0,,,House FOR Rent,45000000/year,propertypro
 Ikoyi Lagos,4.0,4.0,,,Flat Apartment FOR Rent,40000000/year,propertypro
 Banana Island Estate Ikoyi Lagos,3.0,3.0,,,House FOR Rent,60000000/year,propertypro
-Wuye Abuja,6.0,6.0,,,House FOR RENT,25000000/year,propertypro
 "Banana Island Estate, Ikoyi Lagos",4.0,3.0,,,House FOR Rent,45000000/year,propertypro
 Victoria Island Lagos,4.0,3.0,,,House FOR Rent,15000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,4.0,4.0,,,Flat Apartment FOR Rent,40000000/year,propertypro
@@ -263,7 +240,6 @@ Old Ikoyi Ikoyi Lagos,3.0,3.0,,,House FOR Rent,39990000/year,propertypro
 Old Ikoyi Old Ikoyi Ikoyi Lagos,5.0,5.0,,,House FOR Rent,179999999/year,propertypro
 Banana Island Estate Banana Island Ikoyi Lagos,3.0,2.0,,,Flat Apartment FOR Rent,49500000/year,propertypro
 Ikoyi Parkview Estate Ikoyi Lagos,4.0,4.0,,,House FOR Rent,29999999/year,propertypro
-Dawaki Abuja,5.0,5.0,,,House FOR RENT,16000000/year,propertypro
 Parkview Estate Ikoyi Lagos,4.0,4.0,,,House FOR Rent,17000000,propertypro
 Ahmadu Bello Way Victoria Island Lagos,3.0,3.0,,,House FOR Rent,15000000/year,propertypro
 Ikoyi S.w Ikoyi Lagos,4.0,4.0,,,House FOR Rent,30000000,propertypro
@@ -273,7 +249,6 @@ Old Ikoyi Ikoyi Lagos,4.0,4.0,,,Flat Apartment FOR Rent,40000000/year,propertypr
 Old Ikoyi Ikoyi Lagos,5.0,5.0,,,House FOR Rent,49990000/year,propertypro
 Parkview Estate Ikoyi Lagos,4.0,4.0,,,House FOR Rent,35000000/year,propertypro
 Ikoyi Lagos,3.0,3.0,,,Flat Apartment FOR Rent,39900000/year,propertypro
-By Dunamis Durumi Abuja,2.0,2.0,,,Flat / Apartment FOR SALE,75000000,propertypro
 Victoria Island Extension Victoria Island Lagos,3.0,3.0,,,Flat Apartment FOR Rent,30000000/year,propertypro
 Banana Island Estate Ikoyi Lagos,1.0,1.0,,,Flat Apartment FOR Rent,19999999/year,propertypro
 Banana Island Estate Banana Island Ikoyi Lagos,4.0,4.0,,,House FOR Rent,45000000/year,propertypro
@@ -317,7 +292,6 @@ Surulere Lagos,3.0,,,,Flat Apartment FOR Rent,6000000/year,propertypro
 Oke Ira Ogba Lagos,3.0,,,,Flat Apartment FOR Rent,5000000/year,propertypro
 Kilo Marsha Surulere Lagos,3.0,,,,Flat Apartment FOR Rent,5000000/year,propertypro
 Alaka Estate Surulere Lagos,3.0,,,,Flat Apartment FOR Rent,6000000/year,propertypro
-Wuse Zone 6 Wuse 1 Abuja,10.0,10.0,,,Commercial Property FOR SALE,15000000000,propertypro
 Omole Phase 2 Ojodu Lagos,5.0,,,,House FOR Rent,25000000/year,propertypro
 Allen Avenue Ikeja Lagos,9.0,,,,House FOR Rent,18000000/year,propertypro
 Awolowo Way Ikeja Lagos,,,,,Commercial Property FOR Rent,18000000/year,propertypro
@@ -342,7 +316,6 @@ Ikoyi Lagos,3.0,3.0,,,Flat Apartment FOR Rent,30000000/year,propertypro
 Vgc Lekki Lagos,4.0,4.0,,,House FOR SALE,190000000,propertypro
 Ikate Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,9000000/year,propertypro
 Chevron Lekki Lagos,5.0,5.0,,,House FOR Rent,25000000/year,propertypro
-Guzape Abuja,4.0,4.0,,,House FOR Rent,40000000/year,propertypro
 Banana Island Ikoyi Lagos,5.0,5.0,,,House FOR Rent,$,propertypro
 Ikoyi Lagos,3.0,3.0,,,Flat Apartment FOR Rent,30000000/year,propertypro
 Banana Island Ikoyi Lagos,4.0,4.0,,,Flat Apartment FOR Rent,65000000/year,propertypro
@@ -351,30 +324,14 @@ Ikoyi Lagos,4.0,4.0,,,House FOR Rent,30000000/year,propertypro
 Banana Island Ikoyi Lagos,2.0,2.0,,,Flat Apartment FOR Rent,25000000/year,propertypro
 "Admiralty Way, Lekki Phase 1 Lekki Lagos",,,,,Commercial Property FOR Rent,250000/sqm,propertypro
 Bera Estate Chevron Lekki Lagos,4.0,4.0,,,House FOR Rent,10000000/year,propertypro
-Gwarinpa Abuja,3.0,4.0,,,House FOR RENT,6000000/year,propertypro
 "Opposite Emerald Estate, Ajah Lagos",3.0,3.0,,,House FOR Rent,3500000/year,propertypro
-"Jericho Forestry, Jericho Ibadan Oyo",,,,,House FOR Rent,4000000/year,propertypro
-Ipapo Iseyin Oyo,,,,,Commercial Property FOR Rent,8000000/year,propertypro
-General Gas Road Akobo Ibadan Oyo,,,,,Commercial Property FOR Rent,10000000/year,propertypro
-"Opposite Abbey Technical School, Within Walking Distance Of Taska Filling Station, Off Akala Expressway Akala Express Ibadan Oyo",1.0,2.0,,,Flat Apartment FOR Rent,1500000/year,propertypro
-"Peculiar Estate, Olounda Akobo Ibadan Oyo",,,,,Flat Apartment FOR Rent,1200000/year,propertypro
-"Kolapo Ishola Gra, Akobo Ibadan Oyo",,,,,House FOR Rent,8500000/year,propertypro
-Ologuneru Ibadan Oyo,,,,,Commercial Property FOR Rent,5000000/year,propertypro
-Adamasingba Mokola Road Ibadan North West Ibadan Oyo,,,,1000.0,Land FOR Rent,7000000/year,propertypro
 Eko Atlantic Victoria Island Lagos,3.0,3.0,,,Flat / Apartment FOR SHORTLET,350000/day,propertypro
-Akobo Ibadan Oyo,,,,,Commercial Property FOR Rent,20000000/year,propertypro
 Orchid Lekki Lagos,,,,,House FOR Rent,6500000/year,propertypro
-"Olorunsogo, Ibadan Oyo",,,,,Commercial Property FOR Rent,5000000/year,propertypro
-Kolapo Ishola Akobo Ibadan Oyo,,,,,House FOR Rent,12000000/year,propertypro
-Sango Eleyele Road Ibadan Oyo,,,,,Commercial Property FOR Rent,4500000/year,propertypro
-"Abbey Technical, Akala Express Ibadan Oyo",,,,,Flat Apartment FOR Rent,1500000/year,propertypro
-Kolapo Ishola Gra Akobo Ibadan Oyo,3.0,,,,House FOR Rent,8000000/year,propertypro
 Omole Phase 2 Ojodu Lagos,5.0,5.0,,,House FOR Rent,15000000/year,propertypro
 Haris Drive Vgc Lekki Lagos,4.0,4.0,,,House FOR Rent,12000000/year,propertypro
 Ologolo Lekki Lagos,4.0,4.0,,,House FOR Rent,11000000/year,propertypro
 Ikate Lekki Lagos,4.0,4.0,,,House FOR Rent,30000000/year,propertypro
 "Osameren Street, Ologolo Agungi Lekki Lagos",4.0,4.0,,,House FOR RENT,20000000/year,propertypro
-"Gilmore, Jahi Abuja",3.0,3.0,,,House FOR Rent,8000000/year,propertypro
 Ikoyi Lagos,3.0,3.0,,,Flat Apartment FOR Rent,55000000/year,propertypro
 Victoria Island Lagos,,,,,Commercial Property FOR Rent,150000000/year,propertypro
 Parkview Estate Ikoyi Lagos,4.0,4.0,,,House FOR Rent,35000000/year,propertypro
@@ -387,23 +344,16 @@ Victory Park Estate Lekki Phase 1 Lekki Lagos,4.0,4.0,,,House FOR SALE,780000000
 Victoria Island Lagos,3.0,3.0,,,Flat Apartment FOR Rent,20000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,3.0,3.0,,,House FOR Rent,30000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,9.0,9.0,,,Commercial Property FOR Rent,200000000/year,propertypro
-Gilmor Jahi Abuja,4.0,4.0,,,House FOR Rent,12000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,,,,,Commercial Property FOR Rent,3500000/year,propertypro
 Lekki Phase 1 Lekki Lagos,,,,,Commercial Property FOR Rent,70000000/year,propertypro
 Oniru Victoria Island Lagos,5.0,5.0,,,House FOR Rent,20000000/year,propertypro
-Life Camp Abuja,4.0,4.0,,,House FOR Rent,9000000/year,propertypro
 Victoria Island Lagos,2.0,2.0,,,Flat Apartment FOR Rent,27000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,3.0,3.0,,,Flat Apartment FOR Rent,25000000/year,propertypro
-Katampe Ext Abuja,4.0,4.0,,,House FOR Rent,20000000/year,propertypro
 Victoria Island Lagos,2.0,2.0,,,Flat / Apartment FOR RENT,12000000/year,propertypro
-Jahi Gilmor Jahi Abuja,4.0,4.0,,,House FOR Rent,16000000/year,propertypro
 Oniru Victoria Island Lagos,3.0,3.0,,,Flat Apartment FOR Rent,12000000/year,propertypro
-Jahi Gilmor Jahi Abuja,4.0,4.0,,,House FOR Rent,15000000/year,propertypro
 Oniru Victoria Island Lagos,3.0,3.0,,,House FOR Rent,12000000/year,propertypro
 Old Ikoyi Ikoyi Lagos,1.0,1.0,,,Flat Apartment FOR Rent,18000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,4.0,4.0,,,House FOR Rent,18000000/year,propertypro
-Mabushi In An Estate Mabushi Abuja,4.0,4.0,,,House FOR Rent,14000000/year,propertypro
-Life Camp Abuja,4.0,4.0,,,House FOR Rent,9000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,,,,,Commercial Property FOR Rent,25000000/year,propertypro
 Ikate Lekki Lagos,5.0,5.0,,,House FOR SALE,980000000,propertypro
 Lekki Phase 1 Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,16000000/year,propertypro
@@ -417,7 +367,6 @@ Oniru Victoria Island Lagos,3.0,3.0,,,House FOR Rent,8000000/year,propertypro
 Victoria Island Lagos,3.0,3.0,,,Flat Apartment FOR Rent,30000000/year,propertypro
 Ikate Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,13000000/year,propertypro
 Agungi Osapa London Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,6500000/year,propertypro
-Gwarinpa Abuja,3.0,4.0,,,House FOR RENT,6000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,4.0,4.0,,,House FOR Rent,20000000/year,propertypro
 Ikoyi Lagos,2.0,2.0,,,House FOR Rent,30000000/year,propertypro
 Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,12000000/year,propertypro
@@ -427,7 +376,6 @@ Osapa London Lekki Lagos,3.0,3.0,,,Flat Apartment FOR Rent,15000000/year,propert
 Ologolo Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,8000000/year,propertypro
 Off Freedom Way Lekki Phase 1 Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,14000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,3.0,3.0,,,Flat Apartment FOR Rent,18000000/year,propertypro
-Carlton Gate Estate Akobo Ibadan Oyo,4.0,5.0,,,House FOR RENT,4000000/year,propertypro
 Ologolo Lekki Lagos,4.0,4.0,,,House FOR Rent,12000000/year,propertypro
 Orchid Lekki Lagos,4.0,4.0,,,House FOR Rent,14000000/year,propertypro
 Ikate Lekki Lagos,4.0,4.0,,,House FOR Rent,12500000/year,propertypro
@@ -437,15 +385,6 @@ Ikate Lekki Lagos,4.0,4.0,,,House FOR Rent,20000000/year,propertypro
 Osapa London Lekki Lagos,4.0,4.0,,,House FOR Rent,20000000/year,propertypro
 "Off Freedom Way, Lekki Phase 1 Lekki Lagos",2.0,2.0,,,Flat Apartment FOR Rent,11000000/year,propertypro
 Osapa London Lekki Lagos,2.0,2.0,,,Flat Apartment FOR Rent,15000000/year,propertypro
-"Carlton Gate Estate, Akobo Ibadan Oyo",4.0,4.0,,,Flat Apartment FOR Rent,10000000/year,propertypro
-"Carlton Gate Estate, Akobo Akobo Ibadan Oyo",3.0,3.0,,,Flat Apartment FOR Rent,6500000/year,propertypro
-Gwarinpa Abuja,3.0,4.0,,,House FOR RENT,6000000/year,propertypro
-Agodi Gra Ibadan Oyo,4.0,4.0,,,Flat Apartment FOR Rent,7000000/year,propertypro
-"Carlton Gate Estate, Akobo Ibadan Oyo",4.0,4.0,,,Flat Apartment FOR Rent,6000000/year,propertypro
-"Engr Lere Adigun Gra, Basorun Ibadan Oyo",5.0,5.0,,,Flat Apartment FOR Rent,15000000/year,propertypro
-Carlton Gate Estate Akobo Ibadan Oyo,3.0,3.0,,,Flat Apartment FOR Rent,6500000/year,propertypro
-"Carlton Gate Estate, Akobo Ibadan Oyo",4.0,4.0,,,Flat Apartment FOR Rent,10000000/year,propertypro
-Bodija Estate Ibadan Oyo,2.0,2.0,,,Flat Apartment FOR Rent,3000000/year,propertypro
 Lekki Phase 1 Lekki Lagos,5.0,5.0,,,House FOR Rent,35000000/year,propertypro
 "Orchid Road, Lekki Phase 2 Lekki Lagos",1.0,1.0,,,Commercial Property FOR Rent,3000000/year,propertypro
 Nike Art Gallery Road Ikate Lekki Lagos,3.0,3.0,,,Flat Apartment FOR Rent,18000000/year,propertypro
@@ -458,7 +397,6 @@ Banana Island Ikoyi Lagos,5.0,5.0,6.0,,5 BEDROOM HOUSE,,privateproperty
 Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Lekki Phase 1 Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Ikate Elegushi Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM FLAT & APARTMENT,,privateproperty
-Guzape Abuja Phase 1 Abuja,3.0,3.0,4.0,,3 BEDROOM TERRACED DUPLEX,,privateproperty
 Ikate Lekki Phase One Lekki Phase 1 Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS For Sale,,privateproperty
 Lekki Phase 1 Lekki Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Old Ikoyi Ikoyi Lagos,,,,,LAND,,privateproperty
@@ -476,7 +414,6 @@ Lekki Phase 1 Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM MAISONETTE,,privateproperty
 Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM FLAT & APARTMENT,,privateproperty
 Oniru Estate Oniru Victoria Island Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Lekki Phase 1 Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM DETACHED DUPLEX,,privateproperty
-Mabushi Abuja Phase 1 Abuja,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Lekki Phase 1 Lekki Lagos,3.0,3.0,4.0,,3 BEDROOM FLAT & APARTMENT,,privateproperty
 Victoria Island Lagos,,,,,LAND,,privateproperty
 Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
@@ -495,7 +432,6 @@ Banana Island Ikoyi Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Lekki Phase 1 Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM SEMI DETACHED DUPLEX,,privateproperty
 Old Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM FLAT & APARTMENT,,privateproperty
 Ikoyi Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
-Asokoro Abuja Phase 1 Abuja,3.0,3.0,4.0,,3 BEDROOM SHARED APARTMENT,,privateproperty
 Lekki Phase 1 Lekki Lagos,1.0,,,,1 BEDROOM MINI FLAT,,privateproperty
 Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM SHARED APARTMENT,,privateproperty
 Victoria Island Lagos,,,,,COMMERCIAL PROPERTY,,privateproperty
@@ -563,28 +499,23 @@ Lekki Phase 1 Lagos,1.0,,,,1 BEDROOM MINI FLAT,,privateproperty
 Victoria Island Victoria Island Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Ikota Lekki Lagos,,,,,MALL/COMPLEX/PLAZA,,privateproperty
 Oniru Victoria Island Lagos,3.0,3.0,5.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
-Guzape Abuja Phase 1 Abuja,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Ajah Ajah Lagos,3.0,3.0,4.0,,3 BEDROOM TERRACED DUPLEX,,privateproperty
 Secure Estate At Harris Drive Lekki Victoria Garden City Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Osapa Osapa London Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Shonibare Estate Shonibare Estate Maryland Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
-Tanker Park Transekulu Enugu Area Enugu,3.0,4.0,4.0,,3 BEDROOM MINI FLAT,,privateproperty
 Victoria Garden City Lekki Lagos,,,,,RESIDENTIAL LAND For Sale,,privateproperty
 Victoria Island Ligali Ayorinde Victoria Island Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
 Ikate Elegushi Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
-Maitama Maitama Abuja Phase 1 Abuja,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Anthony Village Maryland Lagos,3.0,3.0,3.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Orchid Lekki Expressway Lekki Lagos,1.0,1.0,2.0,,1 BEDROOM SHARED APARTMENT,,privateproperty
 Secure Estate At Orchid Lekki Along Lekki Expressway Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Friend Colony Agungi Osapa Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Off First Avenue Ikoyi Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Estate Lekki Lagos,1.0,1.0,1.0,,1 BEDROOM SHARED APARTMENT,,privateproperty
-Guzape Abuja Phase 1 Abuja,4.0,4.0,5.0,,4 BEDROOM TERRACED DUPLEX,,privateproperty
 Oniru Victoria Island Oniru Victoria Island Lagos,3.0,3.0,3.0,,3 BEDROOM MINI FLAT,,privateproperty
 Old Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM FLAT & APARTMENT,,privateproperty
 Ikate Elegushi Lekki Lagos,4.0,4.0,6.0,,4 BEDROOM SEMI DETACHED DUPLEX,,privateproperty
 Banana Island Lagos Banana Island Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM MAISONETTE,,privateproperty
-Maitama Maitama Abuja Phase 1 Abuja,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 "Omitoro, Ijede Road, Ijede Ikorodu Lagos",2.0,2.0,2.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Parkview Estate Parkview Estate Ikoyi Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
 Freedom Way Lekki Phase 2 Lekki Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
@@ -604,7 +535,6 @@ Lekki Phase 1 Lekki Lagos,4.0,,,,4 BEDROOM TERRACE,,privateproperty
 Osapa London Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM DETACHED DUPLEX,,privateproperty
 Omole Phase2 Omole Phase 2 Ojodu Lagos,2.0,3.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Lekki Phase 1 Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
-Olowotedo Ibafo Ogun Area Ogun,6.0,7.0,7.0,,6 BEDROOM TERRACED DUPLEX,,privateproperty
 "Beside Prime Water, Off Freedom Way, Lekki Phase 1 Lekki Phase 1 Lekki Lagos",3.0,3.0,3.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
 Sapphire Garden Awoyaya Ajah Lagos,4.0,4.0,5.0,,4 BEDROOM TERRACED BUNGALOW,,privateproperty
 Lekki Phase 1 Lekki Lagos,5.0,,,,5 BEDROOM DUPLEX,,privateproperty
@@ -615,7 +545,6 @@ Lekki Phase 1 Lekki Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privatepropert
 Old Ikoyi Ikoyi Lagos,4.0,,,,4 BEDROOM HOUSE,,privateproperty
 Old Ikoyi Lagos,2.0,2.0,3.0,,2 BEDROOM FLAT & APARTMENT,,privateproperty
 Opic Estate Isheri North Ojodu Lagos,2.0,3.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
-Wuye District Wuye Abuja Phase 2 Abuja,1.0,1.0,2.0,,1 BEDROOM FLAT & APARTMENT,,privateproperty
 Off Freedom Way Lekki Lagos,1.0,1.0,,,1 BEDROOM STUDIO APARTMENT,,privateproperty
 Victoria Island Victoria Island Lagos,4.0,4.0,4.0,,4 BEDROOM DUPLEX,,privateproperty
 Azuri Tower Two Eko Atlantic Victoria Island Lagos,3.0,4.0,4.0,,3 BEDROOM FLAT & APARTMENT,,privateproperty
@@ -636,8 +565,6 @@ Lekki Phase 1 Lekki Phase 1 Lekki Lagos,4.0,4.0,4.0,,4 BEDROOM TERRACED DUPLEX,,
 Off Admiralty Way Lekki Phase 1 Lekki Lagos,,,,,OFFICE,,privateproperty
 Lekki Phase 1 Lekki Lagos,3.0,,,,3 BEDROOM FLAT & APARTMENT,,privateproperty
 Magodo Kosofe/ikosi Lagos,1.0,1.0,1.0,,1 BEDROOM STUDIO APARTMENT Short let,,privateproperty
-Central Business District Central Area Abuja Phase 1 Abuja,,,,,OFFICE,,privateproperty
-Jahi Abuja Phase 2 Abuja,3.0,3.0,4.0,,3 BEDROOM DUPLEX,,privateproperty
 Magodo Phase1 Gra Magodo Gra Phase 1 Ojodu Lagos,2.0,3.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 Maple Estate Oko Oba Agege Lagos,2.0,3.0,3.0,,2 BEDROOM BLOCK OF FLATS,,privateproperty
 "Azuri Tower Two, Eko Atlantic City Eko Atlantic Victoria Island Lagos",4.0,5.0,5.0,,4 BEDROOM FLAT & APARTMENT,,privateproperty
@@ -653,7 +580,6 @@ Azuri Tower One Eko Atlantic Victoria Island Lagos,4.0,5.0,5.0,,4 BEDROOM FLAT &
 Lekki Phase 1 Lekki Lagos,3.0,3.0,4.0,,3 BEDROOM FLAT & APARTMENT,,privateproperty
 Chevron Drive Lekki Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
 Jakande Bus Stop Jakande Lekki Lagos,,,,,LAND,,privateproperty
-Central Business District Central Area Abuja Phase 1 Abuja,,,,,OFFICE,,privateproperty
 Ikoyi Ikoyi Lagos,4.0,4.0,5.0,,4 BEDROOM FLAT & APARTMENT,,privateproperty
 Banana Island Estate Banana Island Ikoyi Lagos,4.0,3.0,4.0,,4 BEDROOM TERRACE,,privateproperty
 Banana Island Ikoyi Lagos,3.0,3.0,4.0,,3 BEDROOM BLOCK OF FLATS,,privateproperty
@@ -833,7 +759,6 @@ Lekki Phase One Proper Lekki Phase 1 Lekki Lagos,2.0,2.0,3.0,,2 BEDROOM BLOCK OF
 Chevron Lekki Chevron Drive Lekki Lagos,4.0,4.0,5.0,,4 BEDROOM DUPLEX,,privateproperty
 Ilaje Mobil Road Lekki Phase 2 Lekki Lagos,1.0,1.0,1.0,,1 BEDROOM FLAT & APARTMENT,,privateproperty
 "Chervon Alternative, Lekki Phase 2 Lekki Phase 2 Lekki Lagos",4.0,4.0,5.0,,4 BEDROOM SEMI DETACHED DUPLEX,,privateproperty
-Diplomatic Zone Katampe Ext. Abuja Phase 2,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX For Sale,,privateproperty
 Ikoyi Ikoyi Ikoyi Lagos,4.0,4.0,5.0,,4 BEDROOM TERRACE,,privateproperty
 Chevron Lekki Phase 2 Lekki Lagos,5.0,5.0,6.0,,5 BEDROOM DETACHED DUPLEX,,privateproperty
 "Ikota Villa Estate, Lekki Phase 2 Ikota Lekki Lagos",4.0,4.0,5.0,,4 BEDROOM DETACHED DUPLEX,,privateproperty

@@ -32,11 +32,16 @@ def _load_reference_data() -> pd.DataFrame:
 
 
 REFERENCE_DF = _load_reference_data()
+LAGOS_MASK = REFERENCE_DF["location"].str.contains("lagos", case=False, na=False)
+LAGOS_DF = REFERENCE_DF.loc[LAGOS_MASK].copy()
+if LAGOS_DF.empty:
+    LAGOS_DF = REFERENCE_DF.copy()
+
 LOCATION_CHOICES = sorted(
-    {loc.strip() for loc in REFERENCE_DF["location"].dropna() if isinstance(loc, str)}
+    {loc.strip() for loc in LAGOS_DF["location"].dropna() if isinstance(loc, str)}
 )
 PROPERTY_TYPES = sorted(
-    {prop.strip() for prop in REFERENCE_DF["type"].dropna() if isinstance(prop, str)}
+    {prop.strip() for prop in LAGOS_DF["type"].dropna() if isinstance(prop, str)}
 ) or ["Flat Apartment", "House"]
 
 ISLAND_KEYWORDS = [
@@ -90,9 +95,10 @@ def infer_area_from_location(location: str) -> str:
 
 def _comparable_properties(location: str, limit: int = 8) -> pd.DataFrame:
     needle = location or ""
-    mask = REFERENCE_DF["location"].str.contains(needle, case=False, regex=False, na=False)
+    base_df = LAGOS_DF if not LAGOS_DF.empty else REFERENCE_DF
+    mask = base_df["location"].str.contains(needle, case=False, regex=False, na=False)
     comps = (
-        REFERENCE_DF.loc[mask, ["location", "bedrooms", "bathrooms", "area_sqm", "type", "price_naira"]]
+        base_df.loc[mask, ["location", "bedrooms", "bathrooms", "area_sqm", "type", "price_naira"]]
         .dropna(subset=["price_naira"])
         .sort_values("price_naira")
         .head(limit)
@@ -163,11 +169,10 @@ with gr.Blocks(title="Lagos Rent Estimator") as demo:
     )
 
     with gr.Row():
-        location_input = gr.Dropdown(
-            choices=LOCATION_CHOICES,
+        location_input = gr.Textbox(
             label="Location / neighborhood",
-            value=LOCATION_CHOICES[0] if LOCATION_CHOICES else None,
-            allow_custom_value=True,
+            placeholder="e.g. Ikate Lekki Lagos",
+            value=LOCATION_CHOICES[0] if LOCATION_CHOICES else "",
         )
         property_type_input = gr.Dropdown(
             choices=PROPERTY_TYPES,

@@ -7,10 +7,12 @@ from pathlib import Path
 from typing import Dict, Any
 
 import joblib
+import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "trained_model_pipeline.joblib"
+LAMBDA_PATH = ROOT / "models" / "lambda_boxcox.joblib"
 
 # These are the raw feature columns the training pipeline expected.
 FEATURE_COLUMNS = [
@@ -43,6 +45,26 @@ def _load_model():
     return joblib.load(MODEL_PATH)
 
 
+@lru_cache(maxsize=1)
+def _load_lambda() -> float:
+    if not LAMBDA_PATH.exists():
+        raise FileNotFoundError(
+            f"Box-Cox lambda not found at {LAMBDA_PATH}. "
+            "Export lambda_boxcox.joblib from training."
+        )
+    lam = joblib.load(LAMBDA_PATH)
+    return float(lam)
+
+
+def _inverse_boxcox(values: np.ndarray, lam: float) -> np.ndarray:
+    values = np.asarray(values, dtype=float)
+    if lam == 0:
+        return np.exp(values)
+    adjusted = lam * values + 1.0
+    adjusted = np.clip(adjusted, a_min=1e-9, a_max=None)
+    return np.power(adjusted, 1.0 / lam)
+
+
 def predict_rent(features: Dict[str, Any]) -> float:
     """
     Run a single prediction.
@@ -61,5 +83,7 @@ def predict_rent(features: Dict[str, Any]) -> float:
     model = _load_model()
     payload = {key: features.get(key) for key in FEATURE_COLUMNS}
     frame = pd.DataFrame([payload])
-    prediction = model.predict(frame)[0]
-    return float(prediction)
+    prediction = model.predict(frame)
+    lam = _load_lambda()
+    naira_values = _inverse_boxcox(prediction, lam)
+    return float(naira_values[0])
