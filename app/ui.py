@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
-from app.predict import predict_rent, FEATURE_COLUMNS  # noqa: E402
+from app.predict import predict_rent, FEATURE_COLUMNS, conformal_band  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATASET_PATH = ROOT / "data" / "combined_properties.csv"
@@ -144,14 +144,27 @@ def run_inference(
     }
 
     predicted_price = predict_rent(payload)
-    summary = (
-        f"### Estimated rent\n"
-        f"**₦{predicted_price:,.0f} per year**\n\n"
-        f"- Location: **{location}**\n"
-        f"- Property type: **{property_type}**\n"
-        f"- {int(bedrooms)} bed / {int(bathrooms)} bath / {int(toilets)} toilets\n"
-        f"- Area: **{area_sqm:.0f} sqm**"
+    summary_lines = [
+        "### Estimated rent",
+        f"**₦{predicted_price:,.0f} per year**",
+    ]
+    band = conformal_band(predicted_price)
+    if band is not None:
+        lower, upper = band
+        summary_lines.append(
+            "Confidence band (≈90% coverage based on validation residuals): "
+            f"₦{lower:,.0f} – ₦{upper:,.0f}"
+        )
+    summary_lines.extend(
+        [
+            "",
+            f"- Location: **{location}**",
+            f"- Property type: **{property_type}**",
+            f"- {int(bedrooms)} bed / {int(bathrooms)} bath / {int(toilets)} toilets",
+            f"- Area: **{area_sqm:.0f} sqm**",
+        ]
     )
+    summary = "\n".join(summary_lines)
 
     comps = _comparable_properties(location)
     if comps.empty:
