@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+import shutil
 from functools import lru_cache
 from pathlib import Path
 from typing import Dict, Any
@@ -9,10 +11,14 @@ from typing import Dict, Any
 import joblib
 import numpy as np
 import pandas as pd
+from huggingface_hub import hf_hub_download
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL_PATH = ROOT / "models" / "trained_model_pipeline.joblib"
-LAMBDA_PATH = ROOT / "models" / "lambda_boxcox.joblib"
+MODELS_DIR = ROOT / "models"
+MODEL_FILENAME = os.getenv("MODEL_FILENAME", "trained_model_pipeline.joblib")
+LAMBDA_FILENAME = os.getenv("LAMBDA_FILENAME", "lambda_boxcox.joblib")
+MODEL_REPO_ID = os.getenv("MODEL_REPO_ID")
+MODEL_REPO_TYPE = os.getenv("MODEL_REPO_TYPE", "dataset")
 
 # These are the raw feature columns the training pipeline expected.
 FEATURE_COLUMNS = [
@@ -32,6 +38,40 @@ FEATURE_COLUMNS = [
     "exchange_rate_lag1Q",
     "gdp_growth_lag1Q",
 ]
+
+
+def _ensure_local_artifact(local_path: Path, remote_filename: str) -> Path:
+    """
+    Ensure an artifact exists locally. If it is missing and MODEL_REPO_ID is configured,
+    download the file from the Hugging Face Hub (dataset or model repo).
+    """
+
+    if local_path.exists():
+        return local_path
+
+    if not MODEL_REPO_ID:
+        return local_path
+
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        downloaded_path = hf_hub_download(
+            repo_id=MODEL_REPO_ID,
+            filename=remote_filename,
+            repo_type=MODEL_REPO_TYPE,
+            token=os.getenv("HF_TOKEN"),
+        )
+        shutil.copy(downloaded_path, local_path)
+    except Exception as exc:  # pragma: no cover - we simply bubble up a better message
+        raise FileNotFoundError(
+            f"Unable to download {remote_filename} from {MODEL_REPO_ID}. "
+            "Set MODEL_REPO_ID (and optionally HF_TOKEN) or place the file in models/."
+        ) from exc
+
+    return local_path
+
+
+MODEL_PATH = _ensure_local_artifact(MODELS_DIR / MODEL_FILENAME, MODEL_FILENAME)
+LAMBDA_PATH = _ensure_local_artifact(MODELS_DIR / LAMBDA_FILENAME, LAMBDA_FILENAME)
 
 
 @lru_cache(maxsize=1)
@@ -87,4 +127,3 @@ def predict_rent(features: Dict[str, Any]) -> float:
     lam = _load_lambda()
     naira_values = _inverse_boxcox(prediction, lam)
     return float(naira_values[0])
-
