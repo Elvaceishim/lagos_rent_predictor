@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 
 import joblib
 import numpy as np
@@ -13,8 +13,6 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = ROOT / "models" / "trained_model_pipeline.joblib"
 LAMBDA_PATH = ROOT / "models" / "lambda_boxcox.joblib"
-CONFORMAL_SOURCE = ROOT / "data" / "true_vs_predicted_naira.csv"
-DEFAULT_CONFORMAL_SCALE = 9_243_250.165298764  # 90th percentile |y_true - y_pred| from Nov 2025 residuals
 
 # These are the raw feature columns the training pipeline expected.
 FEATURE_COLUMNS = [
@@ -58,22 +56,6 @@ def _load_lambda() -> float:
     return float(lam)
 
 
-@lru_cache(maxsize=1)
-def _load_conformal_quantile(quantile: float = 0.9) -> Optional[float]:
-    if not CONFORMAL_SOURCE.exists():
-        return DEFAULT_CONFORMAL_SCALE
-    df = pd.read_csv(CONFORMAL_SOURCE)
-    if not {"y_true_naira", "y_pred_naira"}.issubset(df.columns):
-        return DEFAULT_CONFORMAL_SCALE
-    y_true = pd.to_numeric(df["y_true_naira"], errors="coerce")
-    y_pred = pd.to_numeric(df["y_pred_naira"], errors="coerce")
-    residuals = (y_true - y_pred).abs().dropna()
-    if residuals.empty:
-        return DEFAULT_CONFORMAL_SCALE
-    value = float(residuals.quantile(quantile))
-    return value if np.isfinite(value) else DEFAULT_CONFORMAL_SCALE
-
-
 def _inverse_boxcox(values: np.ndarray, lam: float) -> np.ndarray:
     values = np.asarray(values, dtype=float)
     if lam == 0:
@@ -106,12 +88,3 @@ def predict_rent(features: Dict[str, Any]) -> float:
     naira_values = _inverse_boxcox(prediction, lam)
     return float(naira_values[0])
 
-
-def conformal_band(price: float, quantile: float = 0.9) -> Optional[tuple[float, float]]:
-    """Return lower/upper bounds using absolute residual quantile."""
-    scale = _load_conformal_quantile(quantile)
-    if scale is None:
-        return None
-    lower = max(price - scale, 0.0)
-    upper = price + scale
-    return lower, upper
