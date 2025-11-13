@@ -67,3 +67,11 @@ This is handy for CI or before pushing to Hugging Face to verify dependencies/ar
 1. Push the latest code to both GitHub and the Space repo (`git push hf main`).
 2. Upload the `.joblib` artifacts to the storage that matches `MODEL_REPO_ID` (or drop them into the Space’s Files tab).
 3. Trigger **Restart** / **Rebuild** on the Space dashboard. The startup logs will show the auto-download step if the models were fetched from the Hub.
+
+You can upload the artifacts programmatically with:
+
+```bash
+python -m scripts.upload_models
+```
+
+which copies the files under `models/` to `theelvace/lagos_rent_predictor` on Hugging Face.
