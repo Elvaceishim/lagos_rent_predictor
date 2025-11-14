@@ -20,7 +20,7 @@ LAMBDA_FILENAME = os.getenv("LAMBDA_FILENAME", "lambda_boxcox.joblib")
 MODEL_REPO_ID = os.getenv("MODEL_REPO_ID")
 MODEL_REPO_TYPE = os.getenv("MODEL_REPO_TYPE", "dataset")
 
-# These are the raw feature columns the training pipeline expected.
+# These are the raw feature columns expected in the training pipeline.
 FEATURE_COLUMNS = [
     "location",
     "type",
@@ -61,7 +61,7 @@ def _ensure_local_artifact(local_path: Path, remote_filename: str) -> Path:
             token=os.getenv("HF_TOKEN"),
         )
         shutil.copy(downloaded_path, local_path)
-    except Exception as exc:  # pragma: no cover - we simply bubble up a better message
+    except Exception as exc:
         raise FileNotFoundError(
             f"Unable to download {remote_filename} from {MODEL_REPO_ID}. "
             "Set MODEL_REPO_ID (and optionally HF_TOKEN) or place the file in models/."
